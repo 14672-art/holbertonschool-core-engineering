@@ -6,10 +6,10 @@ class Square:
     """Représente un carré."""
 
     def __init__(self, size=0):
-        """Initialise une nouvelle instance de Square avec validation de taille.
+        """Initialise un carré.
 
         Args:
-            size (int): La taille du côté du carré (par défaut 0).
+            size (int): La taille du côté (par défaut 0).
 
         Raises:
             TypeError: Si size n'est pas un entier.
